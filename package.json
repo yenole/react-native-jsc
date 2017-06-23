@@ -1,0 +1,24 @@
+{
+  "name": "react-native-jsc",
+  "version": "1.0.0",
+  "description": "React Native module for javascript call native code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yenole/react-native-jsc.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "javascript"
+  ],
+  "author": "Yenole <Netxy@vip.qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yenole/react-native-jsc/issues"
+  },
+  "homepage": "https://github.com/Yenole/react-native-jsc#readme"
+}
