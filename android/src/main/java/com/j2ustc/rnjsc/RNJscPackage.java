@@ -1,4 +1,4 @@
-package com.j2ustc.reactnativejsc;
+package com.j2ustc.rnjsc;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -14,11 +14,11 @@ import java.util.List;
  * Created by yenole on 2017/6/23.
  */
 
-public class RNJscpPackage implements ReactPackage {
+public class RNJscPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         ArrayList<NativeModule> modules = new ArrayList<>();
-        modules.add(new RNJscpModule(reactContext));
+        modules.add(new RNJscModule(reactContext));
         return modules;
     }
 
