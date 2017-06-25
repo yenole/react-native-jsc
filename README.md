@@ -1,4 +1,5 @@
-#React-Native-Jsc
+#react-native-jsc
+
 [![npm version](https://badge.fury.io/js/react-native-jsc.svg)](https://badge.fury.io/js/react-native-jsc)
 
 适用Android、iOS
