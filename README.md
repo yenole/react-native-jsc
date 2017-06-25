@@ -33,7 +33,7 @@
 import Jsc from 'react-native-jsc';
 
 class App extends Component {
-    componentDidMount() {
+	componentDidMount() {
 	}
 	render() {
 		return (
