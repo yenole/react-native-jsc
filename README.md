@@ -16,3 +16,9 @@
  1. Run `npm install react-native-jsc --save` or `yarn add react-native-jsc`
  2. react-native link react-native-jsc
  3. `var Jsc = require('react-native-jsc')`;
+
+
+ ## 方法
+
+- **`obtain(className:string ,callback:function)`** - 获取一个实例`
+- **`fun(jsObj:object ,fun:string ,args:Arrary ,callback:function)`** - 执行函数`
