@@ -25,3 +25,20 @@
 - **`fun(jsObj:object ,fun:string ,args:Array ,callback:function)`** - 执行实例函数
 - **`sFun(className:string ,fun:string ,args:Array ,callback:function)`** - 执行类函数
 - **`release(jsObj:object)`** - 销毁obtain获得的实例或通过sFun|fun回调的对象
+
+## 使用
+
+```javascript
+
+import Jsc from 'react-native-jsc';
+
+class App extends Component {
+    componentDidMount() {
+	}
+	render() {
+		return (
+			<View></View>
+		);
+	}
+}
+```
