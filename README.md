@@ -20,5 +20,6 @@
 
  ## 方法
 
-- **`obtain(className:string ,callback:function)`** - 获取一个实例`
-- **`fun(jsObj:object ,fun:string ,args:Arrary ,callback:function)`** - 执行函数`
+- **`obtain(className:string ,callback:function)`** - 获取一个实例
+- **`fun(jsObj:object ,fun:string ,args:Arrary ,callback:function)`** - 执行实例函数
+- ***`sFun()`** - 执行类函数
