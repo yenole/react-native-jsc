@@ -20,6 +20,8 @@
 
  ## 方法
 
+- **`obtainPackage(package:string)`** - 这是android包名
 - **`obtain(className:string ,callback:function)`** - 获取一个实例
-- **`fun(jsObj:object ,fun:string ,args:Arrary ,callback:function)`** - 执行实例函数
-- ***`sFun()`** - 执行类函数
+- **`fun(jsObj:object ,fun:string ,args:Array ,callback:function)`** - 执行实例函数
+- **`sFun(className:string ,fun:string ,args:Array ,callback:function)`** - 执行类函数
+- **`release(jsObj:object)`** - 销毁obtain获得的实例或通过sFun|fun回调的对象
