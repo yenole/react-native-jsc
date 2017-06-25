@@ -12,6 +12,6 @@
 
 ## 添加到项目中
 
- 1. Run `npm install react-native-easy-loading --save` or `yarn add react-native-easy-loading`
+ 1. Run `npm install react-native-jsc --save` or `yarn add react-native-jsc`
  2. react-native link react-native-jsc
  3. `var Jsc = require('react-native-jsc')`;
