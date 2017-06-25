@@ -13,6 +13,8 @@
 @property(nonatomic,strong)NSMutableDictionary* mObjectMap;
 
 
+- (NSString*) generateFun:(NSString*) fun :(NSArray*) args;
+
 - (id) toJavascriptObject:(id) obj;
 
 - (BOOL) isProxyObject:(id) obj;

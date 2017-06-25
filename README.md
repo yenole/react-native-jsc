@@ -30,15 +30,42 @@
 
 ```javascript
 
+import React, {
+    Component
+} from 'react';
+import {
+    AppRegistry,
+    View
+} from 'react-native';
 import Jsc from 'react-native-jsc';
 
-class App extends Component {
-	componentDidMount() {
-	}
-	render() {
-		return (
-			<View></View>
-		);
-	}
+
+export default class RNApp extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+        // 这句只有android平台才使用
+        Jsc.obtainPackage("com.j2ustc.example");
+        Jsc.obtain("Example",function (obj,msg) {
+            console.log(obj);
+            Jsc.fun(obj,"getName",null,function(name,msg){
+                console.log("getName:",name);
+            })
+            Jsc.fun(obj,"setName",["Tom"],function(){});
+            Jsc.fun(obj,"getName",null,function(name,msg){
+                console.log("getName:",name);
+            })
+            Jsc.release(obj);
+        })
+        Jsc.sFun("Example","name",["Jack"],function(ret,msg){
+            console.log(ret);
+        })
+    }
+    render() {
+        return (
+            <View></View>
+        );
+    }
 }
+
 ```

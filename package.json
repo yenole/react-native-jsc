@@ -1,6 +1,6 @@
 {
   "name": "react-native-jsc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native module for javascript call native code",
   "main": "index.js",
   "scripts": {
