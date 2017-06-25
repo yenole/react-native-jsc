@@ -14,4 +14,4 @@
 
  1. Run `npm install react-native-easy-loading --save` or `yarn add react-native-easy-loading`
  2. react-native link react-native-jsc
- 3. `var Jsc = require('react-native-jsc');
+ 3. `var Jsc = require('react-native-jsc')`;
